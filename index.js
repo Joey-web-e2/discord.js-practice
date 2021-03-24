@@ -39,4 +39,23 @@ client.on('message', message => {
 
 
 
+});
+
+client.login('your-token-goes-here');
+client.on('message', message => {
+	if (message.content === '-devscredit') {
+	message.ch0annel.send('Credit for skyclient goes to narct, 8Kcoffeewizard, MotorGorrila, Zordlan, Stefthedoggo and MicrocontrollersDev');
+}
+});
+
+
+
+});
+
+client.login('your-token-goes-here');
+client.on('message', message => {
+	if (message.content === '.github') {
+	message.ch0annel.send('https://github.com/nacrt/SkyblockClient');
+}
+});
 
